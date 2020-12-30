@@ -1,6 +1,6 @@
 <h1 align="center" style="position: relative;">
     <a href="https://github.com/RushilKoul/RKPad/"><img width="200" style="border-radius: 50%;"
-            src="./dist/RKPad.png" /></a><br>
+            src="./dist/RKPad.ico" /></a><br>
     RKPad
 </h1>
 
