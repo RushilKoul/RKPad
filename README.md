@@ -7,5 +7,5 @@
 <h3 align="center">RKPad, a small project by RKraft<br>A simple yet modern application that manages all your notes.</h3>
 
 <p align="center">
-    <a href="https://github.com/RushilKoul/RKPad/releases/latest">Download</a>
+    <a href="https://github.com/RushilKoul/RKPad/releases/">Download</a>
 </p>
