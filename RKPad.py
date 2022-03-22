@@ -7,7 +7,7 @@ main_application = tk.Tk()
 main_application.geometry('1200x800')
 main_application.title('Untitled - RKPad')
 main_application.wm_iconbitmap('RKPad.ico')
-main_application.iconbitmap('RKPad.ico') # im not sure if the wm_iconbitmap works on some and iconbitmap works on others, so both are just there
+
 ########## main menu #############
 
 
