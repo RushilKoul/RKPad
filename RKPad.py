@@ -64,8 +64,8 @@ color_dict = {
     'Light Default' :('#000000','fffffff'),
     'Cocaine' :('#474747','#e0e0e0'),
     'Dark' : ('#c4c4c4', '#2d2d2d'),
-    'Red' : ('#2d2d2d','#ffe8e8'),
-    'Monokai' : ('#d3b774','#474747'),
+    'Red' : ('#ffffff','#9e2f40'),
+    'Monokai' : ('#d3b774','#191c19'),
     'Night Blue' :('#ededed','#6b9dc2')
 }
 
@@ -511,6 +511,9 @@ view.add_checkbutton(label='Status Bar',onvalue =1,offvalue=False,variable =show
 
 ###color theme
 def change_theme():
+    f = open("config.txt", "a") ###save theme
+    f.truncate()
+    f.write(theme_choice.get())
     choose_theme = theme_choice.get()
     color_tuple =color_dict.get(choose_theme)
     fg_color,bg_color =color_tuple[0], color_tuple[1]
